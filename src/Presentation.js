@@ -13,9 +13,6 @@ const theme = createTheme({}, {
   tertiary: 'Fira mono',
 });
 
-console.log(Spectacle);
-console.log(theme);
-
 const Presentation = () => (
   <Spectacle theme={theme}>
     <Deck transition={['slide']}>
